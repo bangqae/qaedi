@@ -1,0 +1,46 @@
+/* 1em = 10px */
+/* background */
+body {
+    background-color: #e5e5e5;
+}
+
+.meta-post {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.header header {
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+/* konfigurasi pada tag article */
+article.posts {
+    padding: 10px 20px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+/* konfigurasi pada tag aside */
+aside.widgets {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+aside.widgets ul {
+    margin:0;
+    padding:0;
+}
+
+aside.widgets li {
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+
+/* konfigurasi kelas widget yg ada di dalam tag aside */
+.widget-title {
+  border-bottom: 4px solid #E74C3C;
+  padding-bottom: 4px;
+}
